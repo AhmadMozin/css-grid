@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css Grit</title>
+<style>
+.angry-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   box-sizing: border-box;
+   border: 2px solid black;
+   gap: 0px;
+   height: 100%;
+   
+}
+  
+#sitetitle {
+
+   background-color: #FFFF00; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 7;
+   
+}
+#nav1 {
+
+   background-color:#D2B48C; 
+   grid-row-start: 1;
+   grid-column-start: 7;
+
+   grid-row-end: 2;
+   grid-column-end: 9;
+   
+}
+#nav2 {
+
+   background-color:#FFE4B5; 
+   grid-row-start: 1;
+   grid-column-start: 9;
+
+   grid-row-end: 2;
+   grid-column-end: 11;
+   
+}
+#nav3 {
+
+   background-color:#FFE4E1; 
+   grid-row-start: 1;
+   grid-column-start: 11;
+
+   grid-row-end: 2;
+   grid-column-end: 13;
+   
+}
+#posttitle {
+
+   background-color: #D6CCFA; 
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 10;
+   
+}
+#sidebar {
+
+   background-color: #FFA500; 
+   grid-row-start: 2;
+   grid-column-start: 10;
+
+   grid-row-end: 5;
+   grid-column-end: 13;
+   
+}
+#ads {
+
+   background-color: #228B22; 
+   grid-row-start: 5;
+   grid-column-start: 10;
+
+   grid-row-end: 8;
+   grid-column-end: 13;
+   
+}
+#postmeta {
+
+   background-color: #5DE975; 
+   grid-row-start: 3;
+   grid-column-start: 1;
+
+   grid-row-end: 11;
+   grid-column-end: 4;
+   
+}
+#maincontent {
+
+   background-color: #778899; 
+   grid-row-start: 3;
+   grid-column-start: 4;
+
+   grid-row-end: 6;
+   grid-column-end: 10;
+   
+}
+#otherstufft {
+
+   background-color: #FF00FF; 
+   grid-row-start: 8;
+   grid-column-start: 10;
+
+   grid-row-end: 11;
+   grid-column-end: 13;
+   
+}
+#maincontentimage {
+
+   background-color: #FFD700; 
+   grid-row-start: 6;
+   grid-column-start: 4;
+
+   grid-row-end: 11;
+   grid-column-end: 10;
+   
+}
+#footer {
+
+   background-color: #CD853F; 
+   grid-row-start: 11;
+   grid-column-start: 1;
+
+   grid-row-end: 12;
+   grid-column-end: 13;
+   
+}
+</style>
+
+</head>
+<body>
+
+<div class="angry-grid">
+  <div id="sitetitle">Site Title</div>
+  <div id="nav1">Nav 1</div>
+  <div id="nav2">Nav 2</div>
+  <div id="nav3">Nav 3</div>
+  <div id="posttitle">Post Title</div>
+  <div id="sidebar">Side Bar</div>
+  <div id="ads">Ads</div>
+  <div id="postmeta">Post Meta</div>
+  <div id="maincontent">Main Content</div>
+  <div id="otherstufft">Other Stufft</div>
+  <div id="maincontentimage">Main Content Image</div>
+  <div id="footer">@2022 footer</div>
+</div>
+
+</body>
+</html>
+
+
+
